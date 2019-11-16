@@ -17,18 +17,18 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>github+hexo 搭建个人博客 | 明夷</title>
-  <meta name="description" content="Quick Start创建新的文档1$ hexo new github_hexo  More info: Writing 本地启动服务查看效果1$ hexo server  More info: Server 生成本地静态文件1$ hexo generate  More info: Generating 打包上传到远程（需要本地配置）1$ hexo deploy  More info: Deplo">
+  <title>基于github+hexo的个人博客搭建过程 | 明夷</title>
+  <meta name="description" content="准备本地计算机需安装node运行环境及git 本人运行环境为：  node v10.16.0   git version 2.18.0   安装hexo：1$ npm install -g hexo   在本地创建hexo静态博客 本地创建一个文件夹，比如 myBlog  进入myBlog目  执行如下命令（初始化模板）： 1$ hexo init  初始化模板、下载主题（默认landscape）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="github+hexo 搭建个人博客">
-<meta property="og:url" content="https:&#x2F;&#x2F;mysofter.github.io&#x2F;2019&#x2F;11&#x2F;15&#x2F;github+hexo&#x2F;index.html">
+<meta property="og:title" content="基于github+hexo的个人博客搭建过程">
+<meta property="og:url" content="https:&#x2F;&#x2F;mysofter.github.io&#x2F;2019&#x2F;11&#x2F;15&#x2F;github-hexo&#x2F;index.html">
 <meta property="og:site_name" content="枯叶入土，神归清露，春风度，化作南山木。">
-<meta property="og:description" content="Quick Start创建新的文档1$ hexo new github_hexo  More info: Writing 本地启动服务查看效果1$ hexo server  More info: Server 生成本地静态文件1$ hexo generate  More info: Generating 打包上传到远程（需要本地配置）1$ hexo deploy  More info: Deplo">
+<meta property="og:description" content="准备本地计算机需安装node运行环境及git 本人运行环境为：  node v10.16.0   git version 2.18.0   安装hexo：1$ npm install -g hexo   在本地创建hexo静态博客 本地创建一个文件夹，比如 myBlog  进入myBlog目  执行如下命令（初始化模板）： 1$ hexo init  初始化模板、下载主题（默认landscape）">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-15T12:02:37.327Z">
+<meta property="og:updated_time" content="2019-11-16T14:59:18.134Z">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://mysofter.github.io/2019/11/15/github+hexo/index.html">
+  <link rel="canonical" href="https://mysofter.github.io/2019/11/15/github-hexo/index.html">
   
   
     <link rel="icon" href="/favicon.png" type="image/x-icon">
@@ -250,7 +250,7 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2019/11/15/github+hexo/" class="title">github+hexo 搭建个人博客</a>
+                <a href="/2019/11/15/github-hexo/" class="title">基于github+hexo的个人博客搭建过程</a>
               </p>
               <p class="item-date">
                 <time datetime="2019-11-15T11:52:58.378Z" itemprop="datePublished">2019-11-15</time>
@@ -286,14 +286,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-github+hexo" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-github-hexo" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      github+hexo 搭建个人博客
+      基于github+hexo的个人博客搭建过程
     </h1>
   
 
@@ -301,7 +301,7 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2019/11/15/github+hexo/" class="article-date">
+	<a href="/2019/11/15/github-hexo/" class="article-date">
 	  <time datetime="2019-11-15T11:52:58.378Z" itemprop="datePublished">2019-11-15</time>
 	</a>
 </span>
@@ -310,25 +310,69 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/11/15/github+hexo/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/11/15/github-hexo/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="创建新的文档"><a href="#创建新的文档" class="headerlink" title="创建新的文档"></a>创建新的文档</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new github_hexo</span><br></pre></td></tr></table></figure>
+        <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>本地计算机需安装node运行环境及git</p>
+<p>本人运行环境为：</p>
+<ul>
+<li>node v10.16.0  </li>
+<li>git version 2.18.0</li>
+</ul>
+<hr>
+<h3 id="安装hexo："><a href="#安装hexo：" class="headerlink" title="安装hexo："></a>安装hexo：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="本地启动服务查看效果"><a href="#本地启动服务查看效果" class="headerlink" title="本地启动服务查看效果"></a>本地启动服务查看效果</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="生成本地静态文件"><a href="#生成本地静态文件" class="headerlink" title="生成本地静态文件"></a>生成本地静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="打包上传到远程（需要本地配置）"><a href="#打包上传到远程（需要本地配置）" class="headerlink" title="打包上传到远程（需要本地配置）"></a>打包上传到远程（需要本地配置）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+<hr>
+<h3 id="在本地创建hexo静态博客"><a href="#在本地创建hexo静态博客" class="headerlink" title="在本地创建hexo静态博客"></a>在本地创建hexo静态博客</h3><ul>
+<li><p>本地创建一个文件夹，比如 myBlog</p>
+</li>
+<li><p>进入myBlog目</p>
+</li>
+<li><p>执行如下命令（初始化模板）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>初始化模板、下载主题（默认landscape）</p>
+</blockquote>
+</li>
+<li><p>执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>清除之前生成的静态文件等</p>
+</blockquote>
+</li>
+<li><p>执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate </span><br><span class="line">或者 </span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>生成静态文件</p>
+</blockquote>
+</li>
+<li><p>执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo start </span><br><span class="line">或者 </span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>本地启动服务查看效果</p>
+</blockquote>
+</li>
+<li><p>执行命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">或</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></li>
+<li><p>打包上传到远程（需要本地配置）在根目录myBlog文件夹下，修改配置文件_config.yml中，补充</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ deploy:</span><br><span class="line">	<span class="built_in">type</span>: git</span><br><span class="line">	repository: git@github.com:mysofter/mysofter.github.com.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<h3 id="以上为完整的hexo-git-部署操作流程"><a href="#以上为完整的hexo-git-部署操作流程" class="headerlink" title="以上为完整的hexo git 部署操作流程"></a>以上为完整的hexo git 部署操作流程</h3></li>
+</ul>
+<hr>
+<h3 id="若对默认主题不感兴趣，可进行更换主题操作"><a href="#若对默认主题不感兴趣，可进行更换主题操作" class="headerlink" title="若对默认主题不感兴趣，可进行更换主题操作"></a>若对默认主题不感兴趣，可进行更换主题操作</h3><ul>
+<li><blockquote>
+<p>本人在hexo网站<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo</a>上找了好多模板主题，最终选择pure<br>pure git地址为 <a href="https://github.com/cofess/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a><br>执行命令(当前目录为myBlog)：</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:cofess/hexo-theme-pure.git theme/pure</span><br></pre></td></tr></table></figure></li>
+<li>修改myBlog目录下的_config.yml 文件中theme 值，将其修改为 pure</li>
+<li>重新执行如下命令：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean </span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<hr>
+<h4 id="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。"><a href="#执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。" class="headerlink" title="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。"></a>执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。</h4><h4 id="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。"><a href="#至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。" class="headerlink" title="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。"></a>至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。</h4>
       
     </div>
     <div class="article-footer">
@@ -337,7 +381,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://mysofter.github.io/2019/11/15/github+hexo/" title="github+hexo 搭建个人博客" target="_blank" rel="external">https://mysofter.github.io/2019/11/15/github+hexo/</a>
+      <a href="https://mysofter.github.io/2019/11/15/github-hexo/" title="基于github+hexo的个人博客搭建过程" target="_blank" rel="external">https://mysofter.github.io/2019/11/15/github-hexo/</a>
     </li>
     
     <li class="post-copyright-license">
