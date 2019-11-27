@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>dns记录类型说明</title>
+    <url>/2019/11/16/dns%E8%AE%B0%E5%BD%95%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h3 id="背景说明"><a href="#背景说明" class="headerlink" title="背景说明"></a>背景说明</h3><h6 id="在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。"><a href="#在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。" class="headerlink" title="在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。"></a>在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。</h6><hr>
+<ul>
+<li>A类型：<blockquote>
+<p>将域名指向一个IPV4地址。其值为ip（即将域名与一个ip地址进行映射绑定）</p>
+</blockquote>
+</li>
+<li>AAAA类型：<blockquote>
+<p>将域名指向一个IPV6地址。</p>
+</blockquote>
+</li>
+<li>CAA类型：<blockquote>
+<p>CA证书颁发机构证书授权校验。</p>
+</blockquote>
+</li>
+<li>CNAME类型：<blockquote>
+<p>将域名指向另一个域名（该配置的域名被称为别名域名，可以通过该域名访问另一个域名）。</p>
+</blockquote>
+</li>
+<li>NS类型：<blockquote>
+<p>将子域名指定其他DNS服务器解析。</p>
+</blockquote>
+</li>
+<li>MX类型：<blockquote>
+<p>将域名指向邮件服务器地址。</p>
+</blockquote>
+</li>
+<li>SRV类型：<blockquote>
+<p>记录特定服务的服务器。</p>
+</blockquote>
+</li>
+<li>TXT类型：<blockquote>
+<p>文本长度限制512，通常做SPF记录（反垃圾邮件）。</p>
+</blockquote>
+</li>
+<li>显性URL类型：<blockquote>
+<p>将域名重新定向到另一个地址。</p>
+</blockquote>
+</li>
+<li>隐性URL类型：<blockquote>
+<p>与显性URL类似，但会隐藏真实目标地址。</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>基于github+hexo的个人博客搭建过程</title>
     <url>/2019/11/15/github-hexo/</url>
     <content><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>本地计算机需安装node运行环境及git</p>
