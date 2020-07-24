@@ -2,7 +2,7 @@
 <html lang=zh>
 <head>
   <meta charset="utf-8">
-  
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <meta name="renderer" content="webkit">
@@ -15,8 +15,8 @@
   <meta name="theme-color" content="#000000" />
   <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
   <meta http-equiv="window-target" content="_top" />
-  
-  
+
+
   <title>基于github+hexo的个人博客搭建过程 | 明夷</title>
   <meta name="description" content="准备本地计算机需安装node运行环境及git 本人运行环境为：  node v10.16.0   git version 2.18.0   安装hexo：1$ npm install -g hexo   在本地创建hexo静态博客 本地创建一个文件夹，比如 myBlog  进入myBlog目  执行如下命令（初始化模板）： 1$ hexo init  初始化模板、下载主题（默认landscape）">
 <meta property="og:type" content="article">
@@ -29,15 +29,15 @@
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
   <link rel="canonical" href="https://todobugs.github.io/2019/11/15/github-hexo/index.html">
-  
-  
+
+
     <link rel="icon" href="/favicon.png" type="image/x-icon">
-  
+
   <link rel="stylesheet" href="/css/style.css">
-  
-  
-  
-  
+
+
+
+
 <link rel="alternate" href="/atom.xml" title="枯叶入土，神归清露，春风度，化作南山木。" type="application/atom+xml">
 </head>
 
@@ -46,17 +46,17 @@
   <header class="header" itemscope itemtype="http://schema.org/WPHeader">
   <div class="slimContent">
     <div class="navbar-header">
-      
-      
+
+
       <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/mysofter" target="_blank">
+        <a id="avatar" href="https://github.com/todobugs" target="_blank">
           <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">明夷</h2>
         <h3 id="title" class="hidden-xs hidden-sm hidden-md">Coder</h3>
         <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Hangzhou, China</small>
       </div>
-      
+
       <div class="search" id="search-form-wrap">
 
     <form class="search-form sidebar-form">
@@ -91,108 +91,108 @@
     </div>
     <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
       <ul class="nav navbar-nav main-nav ">
-        
-        
+
+
         <li class="menu-item menu-item-home">
           <a href="/.">
-            
+
             <i class="icon icon-home-fill"></i>
-            
+
             <span class="menu-title">首页</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-archives">
           <a href="/archives">
-            
+
             <i class="icon icon-archives-fill"></i>
-            
+
             <span class="menu-title">归档</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-categories">
           <a href="/categories">
-            
+
             <i class="icon icon-folder"></i>
-            
+
             <span class="menu-title">分类</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-tags">
           <a href="/tags">
-            
+
             <i class="icon icon-tags"></i>
-            
+
             <span class="menu-title">标签</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-repository">
           <a href="/repository">
-            
+
             <i class="icon icon-project"></i>
-            
+
             <span class="menu-title">项目</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-books">
           <a href="/books">
-            
+
             <i class="icon icon-book-fill"></i>
-            
+
             <span class="menu-title">书单</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-links">
           <a href="/links">
-            
+
             <i class="icon icon-friendship"></i>
-            
+
             <span class="menu-title">友链</span>
           </a>
         </li>
-        
-        
+
+
         <li class="menu-item menu-item-about">
           <a href="/about">
-            
+
             <i class="icon icon-cup-fill"></i>
-            
+
             <span class="menu-title">关于</span>
           </a>
         </li>
-        
+
       </ul>
-      
-	
+
+
     <ul class="social-links">
-    	
-        <li><a href="https://github.com/mysofter" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
+
+        <li><a href="https://github.com/todobugs" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+
         <li><a href="/codebeat@qq.com" target="_blank" title="Email" data-toggle=tooltip data-placement=top><i class="icon icon-email"></i></a></li>
-        
-        <li><a href="http://weibo.com/mysofter" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
-        
+
+        <li><a href="http://weibo.com/todobugs" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+
     </ul>
 
     </nav>
   </div>
 </header>
 
-  
+
     <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
-    
+
       <div class="widget">
     <h3 class="widget-title">公告</h3>
     <div class="widget-body">
@@ -204,16 +204,16 @@
     </div>
 </div>
 
-    
-      
 
-    
-      
 
-    
-      
-    
-      
+
+
+
+
+
+
+
+
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
@@ -222,18 +222,18 @@
   </div>
 
 
-    
-      
+
+
   <div class="widget">
     <h3 class="widget-title">最新文章</h3>
     <div class="widget-body">
       <ul class="recent-post-list list-unstyled no-thumbnail">
-        
+
           <li>
-            
+
             <div class="item-inner">
               <p class="item-category">
-                
+
               </p>
               <p class="item-title">
                 <a href="/2019/11/16/dns%E8%AE%B0%E5%BD%95%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E/" class="title">dns记录类型说明</a>
@@ -243,12 +243,12 @@
               </p>
             </div>
           </li>
-          
+
           <li>
-            
+
             <div class="item-inner">
               <p class="item-category">
-                
+
               </p>
               <p class="item-title">
                 <a href="/2019/11/15/github-hexo/" class="title">基于github+hexo的个人博客搭建过程</a>
@@ -258,32 +258,32 @@
               </p>
             </div>
           </li>
-          
+
       </ul>
     </div>
   </div>
-  
 
-    
+
+
   </div>
 </aside>
 
-  
-  
+
+
 <main class="main" role="main">
   <div class="content">
   <article id="post-github-hexo" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-    
+
     <div class="article-header">
-      
-        
-  
+
+
+
     <h1 class="article-title" itemprop="name">
       基于github+hexo的个人博客搭建过程
     </h1>
-  
 
-      
+
+
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
@@ -291,10 +291,10 @@
 	  <time datetime="2019-11-15T11:52:58.378Z" itemprop="datePublished">2019-11-15</time>
 	</a>
 </span>
-        
-        
 
-        
+
+
+
 	<span class="article-read hidden-xs">
 	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
 	    <span id="busuanzi_container_page_pv">
@@ -304,11 +304,11 @@
 
 
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/11/15/github-hexo/#comments" class="article-comment-link">评论</a></span>
-        
+
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
-      
+
         <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>本地计算机需安装node运行环境及git</p>
 <p>本人运行环境为：</p>
 <ul>
@@ -351,13 +351,13 @@
 <li><p>执行命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">或</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></li>
 <li><p>打包上传到远程（需要本地配置）在根目录myBlog文件夹下，修改配置文件_config.yml中，补充</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ deploy:</span><br><span class="line">	<span class="built_in">type</span>: git</span><br><span class="line">	repository: git@github.com:mysofter/mysofter.github.com.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ deploy:</span><br><span class="line">	<span class="built_in">type</span>: git</span><br><span class="line">	repository: git@github.com:todobugs/todobugs.github.com.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
 <h3 id="以上为完整的hexo-git-部署操作流程"><a href="#以上为完整的hexo-git-部署操作流程" class="headerlink" title="以上为完整的hexo git 部署操作流程"></a>以上为完整的hexo git 部署操作流程</h3></li>
 </ul>
 <hr>
 <h3 id="若对默认主题不感兴趣，可进行更换主题操作"><a href="#若对默认主题不感兴趣，可进行更换主题操作" class="headerlink" title="若对默认主题不感兴趣，可进行更换主题操作"></a>若对默认主题不感兴趣，可进行更换主题操作</h3><ul>
 <li><blockquote>
-<p>本人在hexo网站<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo</a>上找了好多模板主题，最终选择pure<br>pure git地址为 <a href="https://github.com/cofess/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a><br>执行命令(当前目录为myBlog)：</p>
+<p>本人在hexo网站<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo</a>上找了好多模板主题，最终选择pure<br>pure git地址为 <a href="https://github.com/todobugs/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a><br>执行命令(当前目录为myBlog)：</p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:cofess/hexo-theme-pure.git theme/pure</span><br></pre></td></tr></table></figure></li>
 <li>修改myBlog目录下的_config.yml 文件中theme 值，将其修改为 pure</li>
@@ -366,17 +366,17 @@
 </ul>
 <hr>
 <h4 id="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。"><a href="#执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。" class="headerlink" title="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。"></a>执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。</h4><h4 id="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。"><a href="#至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。" class="headerlink" title="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。"></a>至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。</h4>
-      
+
     </div>
     <div class="article-footer">
       <blockquote class="mt-2x">
   <ul class="post-copyright list-unstyled">
-    
+
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
       <a href="https://todobugs.github.io/2019/11/15/github-hexo/" title="基于github+hexo的个人博客搭建过程" target="_blank" rel="external">https://todobugs.github.io/2019/11/15/github-hexo/</a>
     </li>
-    
+
     <li class="post-copyright-license">
       <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
     </li>
@@ -388,12 +388,12 @@
   <div class="panel-body">
     <figure class="media">
       <div class="media-left">
-        <a href="https://github.com/mysofter" target="_blank" class="img-burn thumb-sm visible-lg">
+        <a href="https://github.com/todobugs" target="_blank" class="img-burn thumb-sm visible-lg">
           <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/mysofter" target="_blank"><span class="text-dark">明夷</span><small class="ml-1x">Coder</small></a></h3>
+        <h3 class="media-heading"><a href="https://github.com/todobugs" target="_blank"><span class="text-dark">明夷</span><small class="ml-1x">Coder</small></a></h3>
         <div>认真写代码。</div>
       </div>
     </figure>
@@ -403,47 +403,47 @@
 
     </div>
   </article>
-  
-    
+
+
   <section id="comments">
-  	
+
       <div id="vcomments"></div>
-    
+
   </section>
 
 
-  
+
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
-  
+
   <ul class="pager pull-left">
-    
+
     <li class="prev">
       <a href="/2019/11/16/dns%E8%AE%B0%E5%BD%95%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E/" title="dns记录类型说明"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
-    
-    
-    
+
+
+
   </ul>
-  
-  
+
+
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>打赏</span></button>
   <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
     <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
   </div> -->
-  
-  
+
+
   <div class="bar-right">
-    
+
     <div class="share-component" data-sites="weibo,qq,wechat" data-mobile-sites="weibo,qq,qzone"></div>
-    
+
   </div>
   </div>
 </nav>
-  
+
 <!-- Modal -->
 <div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
@@ -491,24 +491,24 @@
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	
-	
+
+
     <ul class="social-links">
-    	
-        <li><a href="https://github.com/mysofter" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
+
+        <li><a href="https://github.com/todobugs" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+
         <li><a href="/codebeat@qq.com" target="_blank" title="Email" data-toggle=tooltip data-placement=top><i class="icon icon-email"></i></a></li>
-        
-        <li><a href="http://weibo.com/mysofter" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
-        
+
+        <li><a href="http://weibo.com/todobugs" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+
     </ul>
 
     <div class="copyright">
-    	
-        &copy; 2019 mingyi
-        
+
+        &copy; 2020 todobugs
+
         <div class="publishby">
-        	Theme by <a href="https://github.com/cofess" target="_blank"> mysofter </a>base on <a href="https://github.com/mysofter/hexo-theme-pure" target="_blank">pure</a>.
+        	Theme by <a href="https://github.com/todobugs" target="_blank"> todobugs </a>base on <a href="https://github.com/todobugs/hexo-theme-pure" target="_blank">pure</a>.
         </div>
     </div>
 </footer>
@@ -542,15 +542,15 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
-   
+
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
 
-   
-    
+
+
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/valine"></script>
   <script type="text/javascript">
@@ -573,7 +573,7 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
   });
   </script>
 
-     
+
 
 
 

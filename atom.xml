@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="https://www.w3.org/2005/Atom">
   <title>枯叶入土，神归清露，春风度，化作南山木。</title>
-  
-  
+
+
   <link href="/atom.xml" rel="self"/>
-  
+
   <link href="https://todobugs.github.io/"/>
   <updated>2019-11-27T03:17:44.749Z</updated>
   <id>https://todobugs.github.io/</id>
-  
+
   <author>
-    <name>mingyi</name>
-    
+    <name>todobugs</name>
+
   </author>
-  
+
   <generator uri="https://hexo.io/">Hexo</generator>
-  
+
   <entry>
     <title>dns记录类型说明</title>
     <link href="https://todobugs.github.io/2019/11/16/dns%E8%AE%B0%E5%BD%95%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E/"/>
     <id>https://todobugs.github.io/2019/11/16/dns%E8%AE%B0%E5%BD%95%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E/</id>
     <published>2019-11-16T14:59:18.133Z</published>
     <updated>2019-11-27T03:17:44.749Z</updated>
-    
+
     <content type="html"><![CDATA[<h3 id="背景说明"><a href="#背景说明" class="headerlink" title="背景说明"></a>背景说明</h3><h6 id="在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。"><a href="#在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。" class="headerlink" title="在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。"></a>在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进行映射，这样用户才能根据域名访问我们的网站。但是在域名解析时，我们经常会发现有好多种类型的记录，比如A类型、CNAME类型、MX等。初次接触时，会对这些种类繁多的记录类型一头雾水，下面给大家做个说明。</h6><hr><ul><li>A类型：<blockquote><p>将域名指向一个IPV4地址。其值为ip（即将域名与一个ip地址进行映射绑定）</p></blockquote></li><li>AAAA类型：<blockquote><p>将域名指向一个IPV6地址。</p></blockquote></li><li>CAA类型：<blockquote><p>CA证书颁发机构证书授权校验。</p></blockquote></li><li>CNAME类型：<blockquote><p>将域名指向另一个域名（该配置的域名被称为别名域名，可以通过该域名访问另一个域名）。</p></blockquote></li><li>NS类型：<blockquote><p>将子域名指定其他DNS服务器解析。</p></blockquote></li><li>MX类型：<blockquote><p>将域名指向邮件服务器地址。</p></blockquote></li><li>SRV类型：<blockquote><p>记录特定服务的服务器。</p></blockquote></li><li>TXT类型：<blockquote><p>文本长度限制512，通常做SPF记录（反垃圾邮件）。</p></blockquote></li><li>显性URL类型：<blockquote><p>将域名重新定向到另一个地址。</p></blockquote></li><li>隐性URL类型：<blockquote><p>与显性URL类似，但会隐藏真实目标地址。</p></blockquote></li></ul>]]></content>
-    
+
     <summary type="html">
-    
-      
-      
+
+
+
         &lt;h3 id=&quot;背景说明&quot;&gt;&lt;a href=&quot;#背景说明&quot; class=&quot;headerlink&quot; title=&quot;背景说明&quot;&gt;&lt;/a&gt;背景说明&lt;/h3&gt;&lt;h6 id=&quot;在一个购买完域名，网站部署上线时，我们首先要做的就是域名解析，也即是将域名与ip地址（或其他域名地址、伺服器等）进
-      
-    
+
+
     </summary>
-    
-    
-    
+
+
+
   </entry>
-  
+
   <entry>
     <title>基于github+hexo的个人博客搭建过程</title>
     <link href="https://todobugs.github.io/2019/11/15/github-hexo/"/>
     <id>https://todobugs.github.io/2019/11/15/github-hexo/</id>
     <published>2019-11-15T11:52:58.378Z</published>
     <updated>2019-11-16T14:59:18.134Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>本地计算机需安装node运行环境及git</p><p>本人运行环境为：</p><ul><li>node v10.16.0  </li><li>git version 2.18.0</li></ul><hr><h3 id="安装hexo："><a href="#安装hexo：" class="headerlink" title="安装hexo："></a>安装hexo：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure><hr><h3 id="在本地创建hexo静态博客"><a href="#在本地创建hexo静态博客" class="headerlink" title="在本地创建hexo静态博客"></a>在本地创建hexo静态博客</h3><ul><li><p>本地创建一个文件夹，比如 myBlog</p></li><li><p>进入myBlog目</p></li><li><p>执行如下命令（初始化模板）：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure><blockquote><p>初始化模板、下载主题（默认landscape）</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><blockquote><p>清除之前生成的静态文件等</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate </span><br><span class="line">或者 </span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><blockquote><p>生成静态文件</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo start </span><br><span class="line">或者 </span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><blockquote><p>本地启动服务查看效果</p></blockquote></li><li><p>执行命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">或</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></li><li><p>打包上传到远程（需要本地配置）在根目录myBlog文件夹下，修改配置文件_config.yml中，补充</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ deploy:</span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: git@github.com:mysofter/mysofter.github.com.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><h3 id="以上为完整的hexo-git-部署操作流程"><a href="#以上为完整的hexo-git-部署操作流程" class="headerlink" title="以上为完整的hexo git 部署操作流程"></a>以上为完整的hexo git 部署操作流程</h3></li></ul><hr><h3 id="若对默认主题不感兴趣，可进行更换主题操作"><a href="#若对默认主题不感兴趣，可进行更换主题操作" class="headerlink" title="若对默认主题不感兴趣，可进行更换主题操作"></a>若对默认主题不感兴趣，可进行更换主题操作</h3><ul><li><blockquote><p>本人在hexo网站<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo</a>上找了好多模板主题，最终选择pure<br>pure git地址为 <a href="https://github.com/cofess/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a><br>执行命令(当前目录为myBlog)：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:cofess/hexo-theme-pure.git theme/pure</span><br></pre></td></tr></table></figure></li><li>修改myBlog目录下的_config.yml 文件中theme 值，将其修改为 pure</li><li>重新执行如下命令：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean </span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></li></ul><hr><h4 id="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。"><a href="#执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。" class="headerlink" title="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。"></a>执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。</h4><h4 id="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。"><a href="#至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。" class="headerlink" title="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。"></a>至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。</h4>]]></content>
-    
+
+    <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>本地计算机需安装node运行环境及git</p><p>本人运行环境为：</p><ul><li>node v10.16.0  </li><li>git version 2.18.0</li></ul><hr><h3 id="安装hexo："><a href="#安装hexo：" class="headerlink" title="安装hexo："></a>安装hexo：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure><hr><h3 id="在本地创建hexo静态博客"><a href="#在本地创建hexo静态博客" class="headerlink" title="在本地创建hexo静态博客"></a>在本地创建hexo静态博客</h3><ul><li><p>本地创建一个文件夹，比如 myBlog</p></li><li><p>进入myBlog目</p></li><li><p>执行如下命令（初始化模板）：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure><blockquote><p>初始化模板、下载主题（默认landscape）</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><blockquote><p>清除之前生成的静态文件等</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate </span><br><span class="line">或者 </span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><blockquote><p>生成静态文件</p></blockquote></li><li><p>执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo start </span><br><span class="line">或者 </span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><blockquote><p>本地启动服务查看效果</p></blockquote></li><li><p>执行命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">或</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></li><li><p>打包上传到远程（需要本地配置）在根目录myBlog文件夹下，修改配置文件_config.yml中，补充</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ deploy:</span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: git@github.com:todobugs/todobugs.github.com.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><h3 id="以上为完整的hexo-git-部署操作流程"><a href="#以上为完整的hexo-git-部署操作流程" class="headerlink" title="以上为完整的hexo git 部署操作流程"></a>以上为完整的hexo git 部署操作流程</h3></li></ul><hr><h3 id="若对默认主题不感兴趣，可进行更换主题操作"><a href="#若对默认主题不感兴趣，可进行更换主题操作" class="headerlink" title="若对默认主题不感兴趣，可进行更换主题操作"></a>若对默认主题不感兴趣，可进行更换主题操作</h3><ul><li><blockquote><p>本人在hexo网站<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo</a>上找了好多模板主题，最终选择pure<br>pure git地址为 <a href="https://github.com/todobugs/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a><br>执行命令(当前目录为myBlog)：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:cofess/hexo-theme-pure.git theme/pure</span><br></pre></td></tr></table></figure></li><li>修改myBlog目录下的_config.yml 文件中theme 值，将其修改为 pure</li><li>重新执行如下命令：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean </span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></li></ul><hr><h4 id="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。"><a href="#执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中-source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo-clean-，-hexo-g-，hexo-s。预览时发现已起作用。" class="headerlink" title="执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。"></a>执行后看在本地进行效果预览，发现主题已经改变。但在点击标签、分类等功能时，发现报错。这是因为对应的layount不存在导致。需要将pure项目中_source目录下的所有内容复制到myBlog中的source目录下，然后重新执行hexo clean ， hexo g ，hexo s。预览时发现已起作用。</h4><h4 id="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。"><a href="#至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下-config-yml及pure目录下的-config-yml-进行修改。" class="headerlink" title="至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。"></a>至此，一个简单的搭建及主题更换已经完成。对主体中相关信息（比如昵称、头像、社交账号等）的修改，可自行在myBlog目录下_config.yml及pure目录下的_config.yml 进行修改。</h4>]]></content>
+
     <summary type="html">
-    
-      
-      
+
+
+
         &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;p&gt;本地计算机需安装node运行环境及git&lt;/p&gt;
 &lt;p&gt;本人运行环境为：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;node v10.16.0  &lt;/li&gt;
-      
-    
+
+
     </summary>
-    
-    
-    
+
+
+
   </entry>
-  
+
 </feed>
